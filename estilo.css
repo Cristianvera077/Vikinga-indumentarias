@@ -1,0 +1,47 @@
+body { 
+  margin: 0;
+  padding: 0;
+  background-image: url(img/logo.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+header {
+ text-align: center;
+ color: white;
+ font-family: 'Explora', cursive;
+ }
+  nav a {
+    padding-right: 10px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif; 
+    }
+  
+  nav a:hover {
+    color: pink; }
+ .nombrelogo {text-align: center;
+ }
+ section{ color:white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+}
+
+ .sectionimg1{ display: flex;
+justify-content:center ;
+transition: all 0.5s ease;
+
+}
+.sectionimg1:hover{transform: scale(0.9);}
+
+img{border-style: solid;
+  box-sizing: border-box;
+  color:plum;
+  border-radius:10px ;
+  margin-left:-20px;
+  background-size: cover;
+ 
+}
